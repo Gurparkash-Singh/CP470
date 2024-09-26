@@ -3,4 +3,8 @@
     <string name="app_name">AndroidAssignments</string>
     <string name="hello_message">Sat Sri Akal</string>
     <string name="ButtonText">Mein Ik Button Va</string>
+    <string name="LoginLabel">Dastakht</string>
+    <string name="LoginHint">Naam</string>
+    <string name="PasswordLabel">Gupt Shabad</string>
+    <string name="SwitchLabel">Eh Ki Karda?</string>
 </resources>
