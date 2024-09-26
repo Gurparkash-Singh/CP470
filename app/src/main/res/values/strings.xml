@@ -6,4 +6,6 @@
     <string name="LoginHint">Login Name</string>
     <string name="PasswordLabel">Password</string>
     <string name="SwitchLabel">What does this do?</string>
+    <string name="RadioLabel">RadioButton</string>
+    <string name="CheckBox">CheckBox</string>
 </resources>

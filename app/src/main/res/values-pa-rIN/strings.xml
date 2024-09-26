@@ -7,4 +7,6 @@
     <string name="LoginHint">Naam</string>
     <string name="PasswordLabel">Gupt Shabad</string>
     <string name="SwitchLabel">Eh Ki Karda?</string>
+    <string name="RadioLabel">RadioButton</string>
+    <string name="CheckBox">Jawab Button</string>
 </resources>
