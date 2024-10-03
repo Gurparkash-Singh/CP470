@@ -9,4 +9,13 @@
     <string name="SwitchLabel">Eh Ki Karda?</string>
     <string name="RadioLabel">RadioButton</string>
     <string name="CheckBox">Jawab Button</string>
+    <string name="emptyEmail">Email Khali Na Shadho</string>
+    <string name="invalidEmail">Email Sahi Nahi Va</string>
+    <string name="emptyPassword">Password Paro</string>
+    <string name="yes">Hain</string>
+    <string name="no">Nahi</string>
+    <string name="exitMessage">Ki Tusi Main Menu jana chaunde hu?</string>
+    <string name="response">Ah mera response va</string>
+    <string name="switchOn">Switch On Va</string>
+    <string name="switchOff">Switch Off Va</string>
 </resources>

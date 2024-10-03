@@ -63,19 +63,19 @@ public class LoginActivity extends AppCompatActivity {
                 // Validate Email and Password
                 if (TextUtils.isEmpty(email))
                 {
-                    createDialog("Please enter an email");
+                    createDialog(getResources().getString(R.string.emptyEmail));
                     return;
                 }
 
                 if (!Patterns.EMAIL_ADDRESS.matcher(email).matches())
                 {
-                    createDialog("Invalid Email");
+                    createDialog(getResources().getString(R.string.invalidEmail));
                     return;
                 }
 
                 if (TextUtils.isEmpty(password))
                 {
-                    createDialog("Please enter a password");
+                    createDialog(getResources().getString(R.string.emptyPassword));
                     return;
                 }
 

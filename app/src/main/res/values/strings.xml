@@ -8,4 +8,13 @@
     <string name="SwitchLabel">What does this do?</string>
     <string name="RadioLabel">RadioButton</string>
     <string name="CheckBox">CheckBox</string>
+    <string name="emptyEmail">Please enter an email</string>
+    <string name="invalidEmail">Email is invalid</string>
+    <string name="emptyPassword">Password must be filled</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="exitMessage">Would you like to exit to the main menu?</string>
+    <string name="response">Here is my response</string>
+    <string name="switchOn">Switch is on</string>
+    <string name="switchOff">Switch is Off</string>
 </resources>

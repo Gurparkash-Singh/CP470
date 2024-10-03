@@ -1,6 +1,8 @@
 package com.example.androidassignments;
 
+import android.app.Activity;
 import android.content.ActivityNotFoundException;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
@@ -18,6 +20,7 @@ import android.widget.Toast;
 import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
@@ -30,6 +33,7 @@ public class ListItemsActivity extends AppCompatActivity {
     private static final String activityName = "ListItemsActivity";
     private ImageButton imageButton;
     private Switch switchButton;
+    private CheckBox checkbox;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,9 +59,10 @@ public class ListItemsActivity extends AppCompatActivity {
             }, 1);
         }
 
-        // Get the image button and checkbox
+        // Get the UI elements
         imageButton = (ImageButton) findViewById(R.id.imageButton);
         switchButton = (Switch) findViewById(R.id.switch1);
+        checkbox = (CheckBox) findViewById(R.id.checkBox);
 
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -74,14 +79,42 @@ public class ListItemsActivity extends AppCompatActivity {
         switchButton.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                String switchOn = getResources().getString(R.string.switchOn);
+                String switchOff = getResources().getString(R.string.switchOff);
                 if (b)
                 {
-                    Toast.makeText(ListItemsActivity.this, "Switch is On", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(ListItemsActivity.this, switchOn, Toast.LENGTH_SHORT).show();
                 }
                 else
                 {
-                    Toast.makeText(ListItemsActivity.this, "Switch is Off", Toast.LENGTH_LONG).show();
+                    Toast.makeText(ListItemsActivity.this, switchOff, Toast.LENGTH_LONG).show();
                 }
+            }
+        });
+
+        checkbox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                AlertDialog.Builder dialog = new AlertDialog.Builder(ListItemsActivity.this);
+                dialog.setTitle(getResources().getString(R.string.yes));
+                dialog.setMessage(getResources().getString(R.string.exitMessage));
+                dialog.setPositiveButton(getResources().getString(R.string.yes), new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        Intent resultIntent = new Intent(  );
+                        resultIntent.putExtra("Response", getResources().getString(R.string.response));
+                        setResult(Activity.RESULT_OK, resultIntent);
+                        finish();
+                    }
+                });
+                dialog.setNegativeButton(getResources().getString(R.string.no), new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        Log.i(activityName, "Staying here");
+                    }
+                });
+                dialog.create();
+                dialog.show();
             }
         });
     }

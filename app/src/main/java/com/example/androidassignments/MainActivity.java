@@ -1,11 +1,13 @@
 package com.example.androidassignments;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
@@ -55,7 +57,14 @@ public class MainActivity extends AppCompatActivity {
 
         if (requestCode == 10)
         {
-            Log.i(activityName, "Returned to " + activityName + " onActivityResult");
+            String message = "Returned to " + activityName + " onActivityResult";
+            Log.i(activityName, message);
+        }
+
+        if (resultCode == Activity.RESULT_OK)
+        {
+            String messagePassed = data.getStringExtra("Response");
+            Toast.makeText(getApplicationContext(), messagePassed, Toast.LENGTH_SHORT).show();
         }
     }
 
