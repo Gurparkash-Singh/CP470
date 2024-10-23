@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">AndroidAssignments</string>
-    <string name="hello_message">Sat Sri Akal</string>
-    <string name="ButtonText">Mein Ik Button Va</string>
-    <string name="LoginLabel">Dastakht</string>
-    <string name="LoginHint">Naam</string>
-    <string name="PasswordLabel">Gupt Shabad</string>
-    <string name="SwitchLabel">Eh Ki Karda?</string>
-    <string name="RadioLabel">RadioButton</string>
-    <string name="CheckBox">Jawab Button</string>
-    <string name="emptyEmail">Email Khali Na Shadho</string>
-    <string name="invalidEmail">Email Sahi Nahi Va</string>
-    <string name="emptyPassword">Password Paro</string>
-    <string name="yes">Hain</string>
-    <string name="no">Nahi</string>
-    <string name="exitMessage">Ki Tusi Main Menu jana chaunde hu?</string>
-    <string name="response">Ah mera response va</string>
-    <string name="switchOn">Switch On Va</string>
-    <string name="switchOff">Switch Off Va</string>
+    <string name="app_name">Androidਅਸਾਈਨਮੈਂਟਸ</string>
+    <string name="hello_message">ਸਤ ਸ੍ਰੀ ਅਕਾਲ</string>
+    <string name="ButtonText">ਮੈਂ ਇੱਕ ਬਟਨ ਹਾਂ</string>
+    <string name="LoginLabel">ਲਾਗਿਨ</string>
+    <string name="LoginHint">ਨਾਮ</string>
+    <string name="PasswordLabel">ਪਾਸਵਰਡ</string>
+    <string name="SwitchLabel">ਇਹ ਕੀ ਕਰਦਾ ਹੈ?</string>
+    <string name="RadioLabel">ਰੇਡੀਓਬਟਨ</string>
+    <string name="CheckBox">ਚੈੱਕਬਾਕਸ</string>
+    <string name="emptyEmail">ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਈਮੇਲ ਦਾਖਲ ਕਰੋ</string>
+    <string name="invalidEmail">ਈਮੇਲ ਸਹੀ ਨਹੀਂ ਹੈ</string>
+    <string name="emptyPassword">ਪਾਸਵਰਡ ਭਰਨਾ ਲਾਜ਼ਮੀ ਹੈ</string>
+    <string name="yes">ਹਾਂ</string>
+    <string name="no">ਨਹੀਂ</string>
+    <string name="exitMessage">ਕੀ ਤੁਸੀਂ Main Menu \'ਤੇ ਜਾਣਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
+    <string name="response">ਇਹ ਮੇਰਾ ਜਵਾਬ ਹੈ</string>
+    <string name="switchOn">ਸਵਿੱਚ ਚਾਲੂ ਹੈ</string>
+    <string name="switchOff">ਸਵਿੱਚ ਬੰਦ ਹੈ</string>
+    <string name="startChat">ਚੈਟ ਸ਼ੁਰੂ ਕਰੋ</string>
 </resources>
