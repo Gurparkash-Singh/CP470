@@ -89,7 +89,7 @@ public class TestToolbar extends AppCompatActivity {
             AlertDialog dialog = builder.create();
             dialog.show();
         } else if (id == R.id.action_about) {
-            Toast.makeText(this, "Version 1.0, by Akif Rahman", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Version 1.0, by Gurparkash Singh Randhawa", Toast.LENGTH_SHORT).show();
         } else {
             return super.onOptionsItemSelected(mi);
         }

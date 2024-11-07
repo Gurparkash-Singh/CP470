@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Androidਅਸਾਈਨਮੈਂਟਸ</string>
+    <string name="hello_message">ਸਤ ਸ੍ਰੀ ਅਕਾਲ</string>
+    <string name="ButtonText">ਮੈਂ ਇੱਕ ਬਟਨ ਹਾਂ</string>
+    <string name="Login">ਲਾਗਿਨ</string>
+    <string name="Login_name">ਨਾਮ</string>
+    <string name="Password">ਪਾਸਵਰਡ</string>
+    <string name="password_hint">ਪਾਸਵਰਡ</string>
+    <string name="Switch">ਇਹ ਕੀ ਕਰਦਾ ਹੈ?</string>
+    <string name="Radio">ਰੇਡੀਓਬਟਨ</string>
+    <string name="Checkbox">ਚੈੱਕਬਾਕਸ</string>
+    <string name="title_activity_list_items">List Items Activity</string>
+    <string name="camera_description">ਕੈਮਰਾ</string>
+    <string name="login_button">ਲਾਗਿਨ</string>
+    <string name="logout_button">ਲਾਗਆਉਟ</string>
+    <string name="home_button">ਘਰ</string>
+    <string name="item_list_button">Item List</string>
+    <string name="captured_image">ਕੈਪਚਰ ਕੀਤਾ ਚਿੱਤਰ</string>
+    <string name="button_ok">ਹਾਂ</string>
+    <string name="button_cancel">ਨਹੀਂ</string>
+    <string name="send_button">ਭੇਜੋ</string>
+    <string name="title_activity_test_toolbar">Test Toolbar</string>
+    <string name="title_folders">Folders</string>
+    <string name="title_trash">ਰੱਦੀ</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_home">ਘਰ</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">ਸੂਚਨਾਵਾਂ</string>
+    <string name="fab_description">ਮੈਨੂੰ ਨਹੀਂ ਪਤਾ</string>
+    <string name="folder">Folder</string>
+    <string name="trash">ਰੱਦੀ</string>
+    <string name="settings">Settings</string>
+    <string name="about">ਸਾਡੇ ਬਾਰੇ</string>
+    <string name="testToolbar">Test Toolbar</string>
+    <string name="dialog_title">ਕੀ ਤੁਸੀਂ ਵਾਪਸ ਜਾਣਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
+    <string name="dialog_positive">ਹਾਂ</string>
+    <string name="dialog_negative">ਨਹੀਂ</string>
+    <string name="button_dialog_message">ਕੀ ਤੁਸੀਂ Main Menu \'ਤੇ ਜਾਣਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
+    <string name="button_dialog_title">ਤੁਸੀਂ ਇੱਕ ਬਟਨ \'ਤੇ ਕਲਿੱਕ ਕੀਤਾ ਹੈ</string>
+    <string name="start_chat_button">ਚੈਟ ਸ਼ੁਰੂ ਕਰੋ</string>
+    <string name="custom_dialog_hint">ਨਵਾਂ ਸੁਨੇਹਾ</string>
+</resources>
