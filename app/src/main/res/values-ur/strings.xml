@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CP470</string>
+    <string name="hello_message">ہیلو دنیا!</string>
+    <string name="ButtonText">میں ایک بٹن ہوں۔</string>
+    <string name="Login">لاگ ان</string>
+    <string name="Login_name">لاگ ان کا نام</string>
+    <string name="Password">پاس ورڈ</string>
+    <string name="password_hint">آپ کا پاس ورڈ</string>
+    <string name="Switch">یہ کیا کرتا ہے</string>
+    <string name="Radio">ریڈیو بٹن!</string>
+    <string name="Checkbox">چیک باکس بٹن!</string>
+    <string name="title_activity_list_items">فہرست اشیاء کی سرگرمی</string>
+    <string name="camera_description">کیمرے</string>
+    <string name="login_button">لاگ ان</string>
+    <string name="logout_button">لاگ آؤٹ</string>
+    <string name="home_button">گھر</string>
+    <string name="item_list_button">آئٹم کی فہرست</string>
+    <string name="button_dialog_message">کیا آپ کو یقین ہے؟ یہ آپ کو مرکزی سرگرمی پر واپس بھیج دے گا۔</string>
+    <string name="button_dialog_title">آپ نے ایک بٹن پر کلک کیا ہے!</string>
+    <string name="captured_image">کھینچی گئی تصویر</string>
+    <string name="button_ok">جی ہاں</string>
+    <string name="button_cancel">منسوخ کریں۔</string>
+    <string name="start_chat_button">چیٹ شروع کریں۔</string>
+    <string name="send_button">بھیجیں۔</string>
+    <string name="title_activity_test_toolbar">TestToolbar</string>
+    <string name="title_folders">Folders</string>
+    <string name="title_trash">Trash</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="fab_description">idk</string>
+    <string name="folder">Folder</string>
+    <string name="trash">Trash</string>
+    <string name="settings">Settings</string>
+    <string name="about">about</string>
+    <string name="testToolbar">Test Toolbar</string>
+    <string name="dialog_title">Do you want to go back?</string>
+    <string name="dialog_positive">Yes!</string>
+    <string name="dialog_negative">No</string>
+    <string name="custom_dialog_hint">New Message</string>
+</resources>
