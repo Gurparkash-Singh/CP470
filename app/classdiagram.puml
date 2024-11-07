@@ -1,0 +1,48 @@
+@startuml
+
+class ChatWindow {
+    - ListView chatListView
+    - EditText messageEditText
+    - Button sendButton
+    - ArrayList<String> chatMessages
+    - ChatAdapter messageAdapter
+    + void onCreate(Bundle savedInstanceState)
+    + boolean onOptionsItemSelected(MenuItem item)
+
+    }
+
+    class ChatAdapter {
+        + ChatAdapter(Context ctx)
+        + int getCount()
+        + String getItem(int position)
+        + View getView(int position, View convertView, ViewGroup parent)
+    }
+
+
+class ListItemsActivity {
+    + void onCreate(Bundle savedInstanceState)
+    + void onListItemClick(ListView listView, View view, int position, long id)
+}
+
+class LoginActivity {
+    - EditText loginEmail
+    - EditText passwordEditText
+    - Button loginButton
+    + void onCreate(Bundle savedInstanceState)
+    + void onClick(View v)
+}
+
+class MainActivity {
+    - Button startChatButton
+    + void onCreate(Bundle savedInstanceState)
+    + void onClick(View v)
+}
+
+
+ChatWindow --> ChatAdapter : has
+MainActivity --> ChatWindow : navigates to
+MainActivity --> LoginActivity : parent of
+ListItemsActivity --> MainActivity : navigates to
+
+
+@enduml
